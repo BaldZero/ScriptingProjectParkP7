@@ -5,7 +5,7 @@ using UnityEngine;
 public class UsingOtherComponents : MonoBehaviour
 {
 
-    public GameObject otherBoi;
+        public GameObject otherBoi;
 
         private AnotherScript anotherScript;
         private AnotherScriptSquared anotherScriptSquared;

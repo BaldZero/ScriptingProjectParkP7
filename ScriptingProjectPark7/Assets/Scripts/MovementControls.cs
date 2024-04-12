@@ -23,7 +23,7 @@ public class MovementControls : MonoBehaviour
     void Movement()
     {
         float forwardMovement = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        float turnMovement = Input.GetAxis("Horizontaal") * turnSpeed * Time.deltaTime;
+        float turnMovement = Input.GetAxis("Horizontal") * turnSpeed * Time.deltaTime;
 
         transform.Translate(Vector3.forward * forwardMovement);
         transform.Rotate(Vector3.forward * turnMovement);

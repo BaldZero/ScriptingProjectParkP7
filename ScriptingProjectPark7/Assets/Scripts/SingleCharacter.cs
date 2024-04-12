@@ -56,6 +56,7 @@ public class SingleCharacter : MonoBehaviour
             Rigidbody bulletInstance = Instantiate(bulletPrefab, firePosition.position, firePosition.rotation);
             bulletInstance.AddForce(firePosition.forward * bulletSpeed);
             myStuff.bullets--;
+            Debug.Log(myStuff.bullets);
         }
     }
 }

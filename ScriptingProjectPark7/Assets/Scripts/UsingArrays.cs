@@ -13,7 +13,7 @@ public class UsingArrays : MonoBehaviour
 
         for (int i = 0; i < player.Length; i++)
         {
-            Debug.Log("Player Number " + i + " is named " + player[i]);
+            Debug.Log("Player Number " + (i + 1) + " is named " + player[i]);
         }
     }
 
